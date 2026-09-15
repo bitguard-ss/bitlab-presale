@@ -1,0 +1,13 @@
+{
+  "name": "bitlab-presale-operator",
+  "private": true,
+  "type": "module",
+  "description": "Operator CLI for the BitLab Coin Presale Smart Contract. Not the public website.",
+  "scripts": {
+    "operator": "node scripts/operator.mjs"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.15",
+    "@solana/web3.js": "^1.98.4"
+  }
+}
